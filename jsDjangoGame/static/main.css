@@ -1,0 +1,12 @@
+body {
+  background-color: #f8f9ca;
+ }
+
+.clickIt {
+  background-color: #caf1f9;
+  display: block;
+  width: 100px;
+  height: 100px;
+  position:relative;
+
+ }

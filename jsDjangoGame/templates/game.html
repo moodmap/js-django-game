@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {% load static %}
+    <link rel="stylesheet" href="{% static "main.css" %}">
+    <title></title>
+  </head>
+  <body>
+    <button id="easy-btn" type="button" name="button">Easy</button>
+    <button id="medium-btn" type="button" name="button2">Medium</button>
+    <button id="hard-btn" type="button" name="button3">Hard</button>
+    <p>Time to play</p>
+    <span class="timeTaken"></span>
+    <div class="clickIt">
+
+    </div>
+
+    {% load staticfiles %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{% static "game.js" %}"></script>
+  </body>
+</html>
